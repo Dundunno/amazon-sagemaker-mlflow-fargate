@@ -4,7 +4,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.idea
 
 # C extensions
 #*.so
@@ -133,3 +132,7 @@ test/
 .envrc
 # AWS CDK
 cdk.out/
+
+# data files
+**/*.csv
+**/*.xlsx
